@@ -1,0 +1,47 @@
+/* Custom Styles */
+
+/* Navigation Bar */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 40px 0;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 0;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  @media (max-width: 767px) {
+    /* Adjust styles for smaller screens */
+    .navbar {
+      margin-bottom: 0;
+    }
+  
+    .hero {
+      padding: 60px 0;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* Further adjustments for extra small screens */
+    .navbar {
+      padding: 10px 0;
+    }
+  }
