@@ -1,4 +1,3 @@
-/* Custom Styles */
 
 /* Navigation Bar */
 .navbar {
@@ -15,7 +14,13 @@
   .services {
     padding: 40px 0;
   }
-  
+
+  /* Project Cards */
+  .project-card img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgb(133, 130, 130);
+}
   /* About Section */
   .about {
     padding: 40px 0;
