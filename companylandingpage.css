@@ -3,21 +3,45 @@
 .navbar {
     margin-bottom: 20px;
   }
-  
+
+  .nav-item a {
+    display: flex;
+    color: maroon;
+    border-radius: 50%;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+  a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+
+
   /* Hero Section */
   .hero {
     padding: 80px 0;
     background-color: #f8f9fa;
+    background-image: url(logo2.jpg), url(logo2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, right center;
   }
   
-  /* Services Section */
-  .services {
-    padding: 40px 0;
+  .hero a {
+    background-color: maroon;
+    border: none;
+
+  }
+  a:hover {
+    color: #ffd700; /* Change color on hover */
   }
 
   /* Project Cards */
+
   .project-card img {
-    max-width: 100%;
+    object-fit: fill;
     border-radius: 50%;
     box-shadow: 10px 10px 5px rgb(133, 130, 130);
 }
@@ -29,6 +53,10 @@
   /* Footer */
   footer {
     padding: 20px 0;
+  }
+
+  footer a {
+    color: white;
   }
   
   /* Media Queries for Responsive Design */
